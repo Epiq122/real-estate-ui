@@ -1,0 +1,21 @@
+.homepage {
+  display: flex;
+  height: 100%;
+
+  .textContainer {
+    flex: 3;
+  }
+  .imageContainer {
+    flex: 2;
+    background-color: #fcf5f3;
+    position: relative;
+    display: flex;
+    align-items: center;
+
+    img {
+      position: absolute;
+      width: 115%;
+      right: 0;
+    }
+  }
+}
