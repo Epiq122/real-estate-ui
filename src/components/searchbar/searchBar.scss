@@ -1,0 +1,25 @@
+.searchbar {
+  .type {
+    button {
+      padding: 16px 36px;
+      border: 1px solid #999;
+      background-color: #fff;
+      text-transform: capitalize;
+      cursor: pointer;
+
+      &.active {
+        background-color: #333;
+        color: #fff;
+      }
+
+      &:first-child {
+        border-top-left-radius: 5px;
+        border-right: none;
+      }
+      &:last-child {
+        border-top-right-radius: 5px;
+        border-left: none;
+      }
+    }
+  }
+}
